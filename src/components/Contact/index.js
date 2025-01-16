@@ -13,7 +13,7 @@ const Contact = ({ isDarkTheme }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service_owxylh9", "template_gjs4wpr", form.current, "df7EvCj1C5We5WumB")
+    emailjs.sendForm("service_npha61l", "template_3fg9xsg", form.current, "12XxPE_XzOlwsYzxf")
       .then((result) => {
         console.log(result.text);
         toast.success('Thanks for your kind words ! ', { position: toast.POSITION.TOP_CENTER });
