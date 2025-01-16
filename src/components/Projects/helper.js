@@ -1,9 +1,9 @@
 import MELOPHILE_APP from "../../assets/MELOPHILE_APP.png"
-// import MESSWALA_APP from "../../assets/MESSWALA_APP.png"
-import PROTFOLIO from "../../assets/PROTFOLIO.png"
+import PROTFOLIO from "../../assets/PORTFOLIO_APP.png"
 import QUESTIONANS_APP from "../../assets/QUESTIONANS_APP.png"
 import TODO_APP from "../../assets/TODO_APP.png"
 // import QROLL_CALL from "../../assets/QROLL_CALL.jpg"
+// import MESSWALA_APP from "../../assets/MESSWALA_APP.png"
 const ProjectList=[
     {
       name:"Melophile - Music-App",
@@ -18,8 +18,8 @@ const ProjectList=[
       image:PROTFOLIO,
       desc:"React | Tailwind",
       long_desc:"",
-      git_hub_link:null, //"https://github.com/Yadhnesh1234/Portfolio",
-      live_url:null,//"https://yadhnesh-portfolio.netlify.app/"
+      git_hub_link:"https://github.com/Arc1998/Portfolio", 
+      live_url:"https://portfolio-mu-eight-44.vercel.app/",
     },
     {
       name:"QuizWuiz",
