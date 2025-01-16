@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 const About = ({ isDarkTheme }) => {
   return (
@@ -27,12 +27,13 @@ const About = ({ isDarkTheme }) => {
           className={`text-lg mt-8 ${isDarkTheme ? 'text-white' : 'text-white'
             }`}
         >
-          A passionate Frontend Web Developer. With expertise in HTML, CSS, JavaScript, I craft captivating user interfaces and robust backends. A problem solver and team player, I love collaborating to bring ideas to life. Constantly learning and staying on top of trends, I'm committed to delivering exceptional results. Let's create something amazing together!
+A passionate Frontend Web Developer with expertise in crafting captivating user interfaces using HTML, CSS, JavaScript, and React.
+ A creative problem solver and dynamic team player, I thrive on collaboration and innovation to transform ideas into reality. Always eager to learn and stay ahead of trends, I’m dedicated to delivering cutting-edge solutions and exceptional user experiences. Let’s build something extraordinary together!
         </p>
-        {/* Icons for LinkedIn, GitHub, and Instagram */}
+        {/* Icons for LinkedIn, GitHub*/}
         <div className="mt-4 flex">
           <a
-            href="https://www.linkedin.com/in/yadhnesh-gangurde-7842251b8/"
+            href="https://www.linkedin.com/in/archana-gangurde-72a4a2227/"
             target="_blank"
             rel="noopener noreferrer"
             className={`text-gray-500 hover:text-gray-700 ${isDarkTheme ? '' : 'text-gray-700 opacity-95'
@@ -49,22 +50,13 @@ const About = ({ isDarkTheme }) => {
           >
             <FaGithub size={32} />
           </a>
-          <a
-            href="https://www.instagram.com/yadhnesh__gangurde/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`ml-4 text-gray-500 hover:text-gray-700 ${isDarkTheme ? '' : 'text-gray-700 opacity-95'
-              }`}
-          >
-            <FaInstagram size={32} />
-          </a>
         </div>
         <button
           className={`mt-4 bg-transparent ${isDarkTheme ? 'hover:bg-black' : 'hover:bg-purple-900'} px-4 py-2 rounded-full text-white border ${isDarkTheme ? 'border-green-500' : 'border-white'
             } focus:outline-none ${isDarkTheme ? '' : 'opacity-95'}`}
         >
           <a
-            href="./YadhneshGangurde_Resume_V1.pdf"
+            href="./Archana_Gangurde_Resume.pdf"
             download
             className="flex items-center"
           >

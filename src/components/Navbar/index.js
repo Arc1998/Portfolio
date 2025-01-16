@@ -57,7 +57,9 @@ const Navbar = ({ isDarkTheme, toggleDarkTheme }) => {
       >
         {/* Blog Link */}
         <a
-          href="/"
+          href="https://medium.com/@archana.gangurde1109"
+          target = '_blank'
+          rel="noreferrer"
           className={`block lg:mr-10 md:mr-10 ${isDarkTheme ? 'text-green-500 hover:text-gray-400' : 'text-gray-800 hover:text-purple-600'
             }  mt-7 ${isMenuOpen ? 'mr-1' : 'mr-10'} transition duration-300 text-lg  md:inline-block md:text-lg`}
         >
