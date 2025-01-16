@@ -9,18 +9,17 @@ const Contact = ({ isDarkTheme }) => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const form = useRef();
-  // const mailvariable = { user_name: "Yadhnesh", user_email: "gangurdeyadhnesh28@gmail.com",message_html: "Hello"}
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm("service_npha61l", "template_3fg9xsg", form.current, "12XxPE_XzOlwsYzxf")
       .then((result) => {
-        console.log(result.text);
+        // console.log(result.text);
         toast.success('Thanks for your kind words ! ', { position: toast.POSITION.TOP_CENTER });
       }, (error) => {
         console.log(error.text);
       });
-    // console.log('Form submitted:', name, email, message);
     // Reset the form fields
     setName('');
     setEmail('');
